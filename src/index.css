@@ -1,0 +1,38 @@
+body{
+  background-color: #A0C49D;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  overflow-x: hidden;
+}
+
+
+.main-container{
+  border: 1px solid black;
+
+  width: 80rem;
+  height: 100%;
+}
+.header-calculate{
+  border: 1px solid pink;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-calculate span{
+  font-weight: bold;
+}
+.header-calculate input{
+  text-align: center;
+}
+
+.suggestions{
+  border: 1px solid orange;
+}
