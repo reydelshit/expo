@@ -16,7 +16,6 @@ app.post('/update', (req, res) => {
 
   console.log('Received data:', field1Value);
 
-
   res.sendStatus(200); // Send a response to the ESP8266
 });
 

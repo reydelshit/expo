@@ -1,22 +1,48 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
+    format('truetype');
+}
 
-*{
-  font-family: 'Poppins', sans-serif;
+:root {
+  --Light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Gradients */
+  /* (background) */
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+
+  /* (circle) */
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  /*Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --Light-lavender: hsl(241, 100%, 89%);
+  --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+* {
+  font-family: 'Hanken Grotesk', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-
-body{
-  background-color: #41644A;
+body {
+  background-color: #41644a;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 100vw;
   height: 100vh;
-  /*background-image: url('./assets/bg.jpg');*/
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -24,59 +50,131 @@ body{
   overflow-x: hidden;
 }
 
-
-.main-container{
-  background-color: #AAC8A7;
-  width: 40rem;
+.main-container {
+  background-color: var(--White);
+  width: 30rem;
   height: 100%;
   border-radius: 15px;
   overflow: hidden;
-  padding: 0.5rem 2rem;
+  padding: 2rem;
+
+  position: relative;
 }
-.header-calculate{
-  padding: 0.2rem;
+
+.refresh {
+  align-self: flex-end;
+  position: absolute;
+  right: 4.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.refresh img {
+  width: 2rem;
+}
+
+.main_description {
+  margin: 5rem 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
-.header-calculate .refresh{
-  align-self: flex-end;
-  width: 5rem;
-  height: 2rem;
+.title {
+  color: var(--Dark-gray-blue);
+  margin-bottom: 2rem;
+}
+
+.main_description .gradient_container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 0.5rem;
   border-radius: 5px;
-  border: none;
-  cursor: pointer;
+  font-weight: 500;
 }
 
-.header-calculate button{
-  
-  width: 8rem;
-  height: 2rem;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
+.main_description .moist {
+  color: var(--Orangey-yellow);
+  background-color: hsl(39, 100%, 96%) !important;
 }
 
-.header-calculate > *{
-    margin-bottom: 1rem;
+.main_description .moist .moist_data {
+  margin-left: 6.5rem;
+  font-weight: 800;
 }
 
-
-.header-calculate span{
-  font-weight: bold;
-
+.main_description .acidity {
+  color: var(--Green-teal);
+  background-color: hsl(166, 100%, 97%) !important;
 }
-.header-calculate input{
+
+.main_description .acidity input {
+  margin-left: 2rem;
+  height: 1.8rem;
+  width: 10rem;
+  padding: 0.5rem;
+  border-radius: 7px;
+  border: 1px solid var(--Green-teal);
   text-align: center;
-  width: 6rem;
-  height: 2rem;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid #263A29;
 }
 
-.suggestions{
-  padding: 2rem 0;
+.main_description .acidity input:focus {
+  outline: 1px solid var(--Green-teal);
+}
+
+.main_description .gradient_container img {
+  margin-right: 0.5rem;
+}
+
+.main_description .ph {
+  margin: 0.5rem 0rem;
+  color: var(--Light-red);
+  background-color: hsl(0, 100%, 97%) !important;
+}
+
+.main_description .ph .res {
+  margin-left: 8rem;
+  font-weight: 800;
+}
+
+.suggestion_button {
+  margin-top: 4rem;
+  width: 8rem;
+  height: 2.5rem;
+  background-color: hsl(166, 100%, 97%) !important;
+  border: 1px solid var(--Green-teal);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.suggestions .title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.suggestion_container {
+  background-color: hsl(166, 100%, 97%);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.suggestion_container span {
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.suggestion_container p {
+  text-indent: 1rem;
+  font-size: 0.9rem;
+  /* font-weight: 600; */
+}
+
+.error_container {
+  margin-top: 2rem;
+  color: var(--Light-red);
 }
