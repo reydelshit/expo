@@ -52,19 +52,35 @@ body {
   place-content: center;
   height: 100%;
   width: 100%;
-  margin-top: 10rem;
+  margin-top: 5rem;
+
+  position: relative;
+
+  /* border: 1px solid orange; */
 }
 .inside-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  display: block;
+
+  /* border: 1px solid blue; */
+}
+
+.upper-container {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
   background-color: var(--White);
   width: 30rem;
-  height: 100%;
+  height: 35rem;
   border-radius: 15px;
   overflow: hidden;
   padding: 2rem;
 
   position: relative;
+
+  /* border: 1px solid red; */
 }
 
 .refresh {
@@ -86,6 +102,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+
+  /* border: 1px solid orange; */
 }
 
 .title {
@@ -142,12 +161,12 @@ body {
 }
 
 .main_description .ph .res {
-  margin-left: 8rem;
+  margin-left: 5.6rem;
   font-weight: 800;
 }
 
 .suggestion_button {
-  margin-top: 4rem;
+  margin-top: 0rem;
   width: 8rem;
   height: 2.5rem;
   background-color: hsl(166, 100%, 97%) !important;
@@ -162,10 +181,20 @@ body {
 }
 
 .suggestion_container {
-  display: block;
+  /* display: flex; */
   height: 100%;
   padding: 1rem;
   border-radius: 8px;
+
+  /* border: 1px solid orange; */
+}
+
+.inside-suggestion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .suggestion_container .classification_container {
@@ -174,6 +203,8 @@ body {
   background-color: hsl(166, 100%, 97%) !important;
   padding: 0.8rem;
   border-radius: 2rem;
+  width: 20rem;
+  align-self: center;
 }
 
 .suggestion_container span {
@@ -191,19 +222,141 @@ body {
   /* font-weight: 600; */
 }
 
-.plants_main_container {
-  color: var(--Green-teal);
-  background-color: hsl(166, 100%, 97%) !important;
-  padding: 1rem;
-  border-radius: 2rem;
+.trio-suggestions-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
   margin-top: 2rem;
+
+  background-color: white;
+  padding: 2rem;
+
+  border-radius: 8px;
+}
+
+.trio-size {
+  text-align: center;
+
+  padding: 0.8rem;
+  border-radius: 2rem;
+  width: 25rem;
+
+  height: 10rem !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.view_plants_container {
+  color: var(--Green-teal);
+  background-color: hsl(166, 100%, 90%) !important;
+}
+
+.view_plants_container button {
+  margin-top: 1rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: 1px solid var(--Green-teal);
+  cursor: pointer;
+}
+
+.view_plants_container button:hover {
+  background-color: var(--Green-teal);
+}
+
+.view_factors_container {
+  color: var(--Orangey-yellow);
+  background-color: hsl(39, 100%, 96%) !important;
+}
+
+.view_factors_container button {
+  margin-top: 1rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: 1px solid var(--Orangey-yellow);
+  cursor: pointer;
+}
+
+.view_factors_container button:hover {
+  background-color: var(--Orangey-yellow);
+}
+
+.view_guides_container {
+  color: var(--Light-red);
+  background-color: hsl(0, 100%, 97%) !important;
+}
+
+.view_guides_container button {
+  margin-top: 1rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: 1px solid var(--Light-red);
+  cursor: pointer;
+}
+
+.view_guides_container button:hover {
+  background-color: var(--Light-red);
+}
+
+.modal_container {
+  position: absolute;
+  top: -10rem;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(65, 100, 74, 0.973);
+
+  width: 100vw;
+
+  /* border: 1px solid red; */
+}
+
+.inside-plants_container {
+  color: var(--Green-teal) !important;
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 10rem;
+  width: 50%;
+
+  padding-top: 5rem;
+
+  position: relative;
+}
+
+.inside-plants_container button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  align-self: flex-end;
 }
 
 .plants_container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
   margin-top: 1rem;
 }
 
 .plant-each-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 8px;
+  color: var(--Green-teal);
+
+  background-color: hsl(166, 100%, 90%) !important;
+
   margin-bottom: 2rem;
 }
 
@@ -213,14 +366,14 @@ body {
 
 .plant-each-container h1 {
   font-size: 1.2rem;
-  color: black;
+  /* color: black; */
 }
 
 .plant-each-container p {
   text-indent: 2rem;
   font-size: 1rem;
   text-align: justify;
-  color: black;
+  /* color: black; */
 }
 
 .plant-each-container img {
@@ -232,4 +385,28 @@ body {
 .error_container {
   margin-top: 2rem;
   color: var(--Light-red);
+}
+
+/* farmings  */
+
+.inside-farmings-container {
+  color: var(--Orangey-yellow) !important;
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 10rem;
+  width: 50%;
+
+  padding-top: 5rem;
+}
+
+/* guides  */
+
+.inside-guides-container {
+  color: var(--Light-red) !important;
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 10rem;
+  width: 50%;
+
+  padding-top: 5rem;
 }
