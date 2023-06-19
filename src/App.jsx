@@ -16,17 +16,20 @@ const App = () => {
   const [error, setError] = useState('');
 
   useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('http://localhost:3000/data');
-        const jsonData = await response.json();
-        setMoistData(jsonData.field1);
-      } catch (error) {
-        console.error('Error:', error);
-      }
-    };
+    // const fetchData = async () => {
+    //   try {
+    //     const response = await fetch('http://localhost:3000/data');
+    //     const jsonData = await response.json();
+    //     // setMoistData(jsonData.valueMoist);
+    //     setMoistData(518);
+    //   } catch (error) {
+    //     console.error('Error:', error);
+    //   }
+    // };
 
-    fetchData();
+    // fetchData();
+
+    setMoistData(518);
   }, [MoistData]);
 
   const calculateMoist = () => {
@@ -100,44 +103,54 @@ const App = () => {
 
   return (
     <div className="main-container">
-      <button className="refresh" onClick={() => refresh()}>
-        <img src={iconRefresh} alt="" />
-      </button>
-
-      <div className="main_description">
-        <h1 className="title">Plantito Plantita</h1>
-        <div className="gradient_container moist" style={{ marginBottom: 10 }}>
-          <img src={iconYellow} alt="" />
-          <p>
-            Moist <span className="moist_data">{MoistData}</span>
-          </p>
-        </div>
-
-        <div className="gradient_container acidity">
-          <img src={iconGreen} alt="" />
-          <p>Acidity</p>
-          <input
-            type="text"
-            placeholder="enter acidityy"
-            onChange={(e) => setInputAcidity(e.target.value)}
-          />
-        </div>
-
-        <div className="gradient_container ph">
-          <img src={iconRed} alt="" />
-          <p>
-            PH <span className="res">{result}</span>
-          </p>
-        </div>
-
-        <div className="error_container">{error.length != 0 ? error : ''}</div>
-
-        <button className="suggestion_button" onClick={() => calculateMoist()}>
-          {decider ? 'close suggestion' : 'show suggestion'}
+      <div className="inside-container">
+        <button className="refresh" onClick={() => refresh()}>
+          <img src={iconRefresh} alt="" />
         </button>
-      </div>
 
-      {decider && <Suggestions result={result} />}
+        <div className="main_description">
+          <h1 className="title">Plantito Plantita</h1>
+          <div
+            className="gradient_container moist"
+            style={{ marginBottom: 10 }}
+          >
+            <img src={iconYellow} alt="" />
+            <p>
+              Moist <span className="moist_data">{MoistData}</span>
+            </p>
+          </div>
+
+          <div className="gradient_container acidity">
+            <img src={iconGreen} alt="" />
+            <p>Acidity</p>
+            <input
+              type="text"
+              placeholder="enter acidityy"
+              onChange={(e) => setInputAcidity(e.target.value)}
+            />
+          </div>
+
+          <div className="gradient_container ph">
+            <img src={iconRed} alt="" />
+            <p>
+              PH <span className="res">{result}</span>
+            </p>
+          </div>
+
+          <div className="error_container">
+            {error.length != 0 ? error : ''}
+          </div>
+
+          <button
+            className="suggestion_button"
+            onClick={() => calculateMoist()}
+          >
+            {decider ? 'close suggestion' : 'show suggestion'}
+          </button>
+        </div>
+
+        {decider && <Suggestions result={result} />}
+      </div>
     </div>
   );
 };

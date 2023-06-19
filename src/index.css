@@ -36,12 +36,8 @@
 
 body {
   background-color: #41644a;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,6 +47,16 @@ body {
 }
 
 .main-container {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 10rem;
+}
+.inside-container {
+  align-items: center;
+  display: block;
   background-color: var(--White);
   width: 30rem;
   height: 100%;
@@ -156,22 +162,71 @@ body {
 }
 
 .suggestion_container {
-  background-color: hsl(166, 100%, 97%);
+  display: block;
+  height: 100%;
   padding: 1rem;
   border-radius: 8px;
 }
 
+.suggestion_container .classification_container {
+  text-align: center;
+  color: var(--Green-teal);
+  background-color: hsl(166, 100%, 97%) !important;
+  padding: 0.8rem;
+  border-radius: 2rem;
+}
+
 .suggestion_container span {
+  text-align: center;
   font-size: 1.2rem;
   display: block;
   margin-top: 2rem;
   font-weight: 600;
+  margin-bottom: 4rem;
 }
 
 .suggestion_container p {
   text-indent: 1rem;
   font-size: 0.9rem;
   /* font-weight: 600; */
+}
+
+.plants_main_container {
+  color: var(--Green-teal);
+  background-color: hsl(166, 100%, 97%) !important;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+
+.plants_container {
+  margin-top: 1rem;
+}
+
+.plant-each-container {
+  margin-bottom: 2rem;
+}
+
+.plant-each-container > * {
+  margin-bottom: 2rem;
+}
+
+.plant-each-container h1 {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.plant-each-container p {
+  text-indent: 2rem;
+  font-size: 1rem;
+  text-align: justify;
+  color: black;
+}
+
+.plant-each-container img {
+  width: 21rem;
+  height: 15rem;
+  border-radius: 2rem;
 }
 
 .error_container {
