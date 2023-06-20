@@ -29,7 +29,7 @@ const App = () => {
 
     // fetchData();
 
-    setMoistData(388);
+    setMoistData(708);
   }, [MoistData]);
 
   const plants = {
@@ -482,7 +482,7 @@ const App = () => {
           name: 'Pineapple',
           description:
             'Pineapple plants are tropical fruit plants known for their delicious and juicy fruits. They require well-drained soil and regular watering. Pineapples can be grown in warm climates.',
-          image: 'Pineapple',
+          image: 'Pineapples',
         },
         {
           name: 'Dragon Fruit',

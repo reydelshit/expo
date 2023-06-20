@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Guides = ({ setSetShowGuides, result }) => {
+const Guides = ({ setSetShowGuides, result, res }) => {
   const guides = {
     1: {
       Classifications: {
@@ -308,7 +308,7 @@ const Guides = ({ setSetShowGuides, result }) => {
 
   const renderGuides = () => {
     return Object.entries(guides).map(([key, guide]) => {
-      if (parseInt(key) === result) {
+      if (res === result) {
         return (
           <div className="guide" key={key}>
             <h1>Guides</h1>

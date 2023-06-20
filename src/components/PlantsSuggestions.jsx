@@ -7,9 +7,9 @@ const PlantsSuggestions = ({ plant, imagePaths, setSetShowPlants }) => {
         <div className="plants_container general">
           {plant.ornomental.map((PLANTDETAILS, index) => (
             <div className="plant-each-container" key={index}>
-              <h1>*{PLANTDETAILS.name}</h1>
+              <h1>{PLANTDETAILS.name}</h1>
               <img
-                src={imagePaths[PLANTDETAILS.image.toLowerString()]}
+                src={imagePaths[PLANTDETAILS.image.toLowerCase()]}
                 alt={PLANTDETAILS.name}
               />
               <p>{PLANTDETAILS.description}</p>

@@ -21,21 +21,21 @@ import hibiscusImage from '../assets/images/hibiscus.jpeg';
 import impatiensImage from '../assets/images/impatiens.jpg';
 import coleusImage from '../assets/images/coleus.jpg';
 import elephantImage from '../assets/images/elephant.jpg';
-import eggplantImage from '../assets/images/eggplant.jpg';
+import eggplantImage from '../assets/images/elephant.jpg';
 import cabbageImage from '../assets/images/cabbage.jpg';
 import lettuceImage from '../assets/images/lettuce.jpg';
 import kaleImage from '../assets/images/kale.jpg';
 import mustardImage from '../assets/images/mustard.jpg';
 import ixoraImage from '../assets/images/ixora.jpg';
-import plumeriaImage from '../assets/images/plumeria.jpg';
+import plumeriaImage from '../assets/images/plumeria.jfif';
 import strelitziaImage from '../assets/images/strelitzia.jpg';
 import cordylineImage from '../assets/images/cordyline.jpg';
-import okraImage from '../assets/images/okra.jpg';
+import okraImage from '../assets/images/okra.jfif';
 import sitawImage from '../assets/images/sitaw.jpg';
 import malunggayImage from '../assets/images/malunggay.jpg';
 import kangkongImage from '../assets/images/kangkong.jpg';
-import amaranthImage from '../assets/images/amaranth.jpg';
-import calatheaImage from '../assets/images/calathea.jpg';
+import amaranthImage from '../assets/images/amarath.png';
+import calatheaImage from '../assets/images/calathea.png';
 import aglaonemaImage from '../assets/images/aglaonema.jpg';
 import crotonImage from '../assets/images/croton.jpg';
 import tomatoImage from '../assets/images/tomato.jpg';
@@ -53,17 +53,17 @@ import watermelonImage from '../assets/images/watermelon.jpg';
 import goldenImage from '../assets/images/golden.jpg';
 import dieffenbachiaImage from '../assets/images/dieffenbachia.jpg';
 import zamioculcasImage from '../assets/images/zamioculcas.jpg';
-import riceImage from '../assets/images/rice.jpg';
+import riceImage from '../assets/images/rice.jpeg';
 import sorghumImage from '../assets/images/sorghum.jpg';
 import barleyImage from '../assets/images/barley.jpg';
-import sugarcaneImage from '../assets/images/sugarcane.jpg';
+import sugarcaneImage from '../assets/images/sugarcane.png';
 import bromeliadsImage from '../assets/images/bromeliads.jpg';
 import sansevieriaImage from '../assets/images/sansevieria.jpg';
 import zebraImage from '../assets/images/zebra.jpg';
 import aloeImage from '../assets/images/aloe.jpg';
 import pencilImage from '../assets/images/pencil.jpg';
 import coffeeImage from '../assets/images/coffee.jpg';
-import pineappleImage from '../assets/images/pineapple.jpg';
+import pineappleImage from '../assets/images/pineapples.jpg';
 import dragonImage from '../assets/images/dragon.jpg';
 import passionImage from '../assets/images/passion.jpg';
 import desertImage from '../assets/images/desert.jpg';
@@ -76,8 +76,8 @@ import portulacaImage from '../assets/images/portulaca.jpg';
 import pigeonImage from '../assets/images/pigeon.jpg';
 import wingedImage from '../assets/images/winged.jpg';
 import mungImage from '../assets/images/mung.jpg';
-import kidneyImage from '../assets/images/kidney.jpg';
-import bouImage from '../assets/images/bou.jp';
+import kidneyImage from '../assets/images/kidney.jpeg';
+import bouImage from '../assets/images/bou.jpg';
 import aspleniumImage from '../assets/images/asplenium.jpg';
 
 const Suggestions = ({ result, plants }) => {
@@ -91,7 +91,7 @@ const Suggestions = ({ result, plants }) => {
     bougainvillea: bougainvilleaImage,
     anthuriums: anthuriumsImage,
     caladiums: caladiumsImage,
-    Ferns: fernsImage,
+    ferns: fernsImage,
     gardenias: gardeniasImage,
     pineapples: pineapplesImage,
     ginger: gingerImage,
@@ -99,65 +99,65 @@ const Suggestions = ({ result, plants }) => {
     turmeric: turmericImage,
     hibiscus: hibiscusImage,
     impatiens: impatiensImage,
-    Coleus: coleusImage,
-    Elephant: elephantImage,
-    Eggplant: eggplantImage,
-    Cabbage: cabbageImage,
-    Lettuce: lettuceImage,
-    Kale: kaleImage,
-    Mustard: mustardImage,
-    Ixora: ixoraImage,
-    Plumeria: plumeriaImage,
-    Strelitzia: strelitziaImage,
-    Cordyline: cordylineImage,
-    Okra: okraImage,
-    Sitaw: sitawImage,
-    Malunggay: malunggayImage,
-    Kangkong: kangkongImage,
-    Amaranth: amaranthImage,
-    Calathea: calatheaImage,
-    Aglaonema: aglaonemaImage,
-    Croton: crotonImage,
-    Tomato: tomatoImage,
-    Chilies: chiliesImage,
-    Bell: bellImage,
-    Strawberries: strawberriesImage,
-    Lily: lilyImage,
-    Philodendron: philodendronImage,
-    Spider: spiderImage,
-    Syngonium: syngoniumImage,
-    Corn: cornImage,
-    Squash: squashImage,
-    Cucumber: cucumberImage,
-    Watermelon: watermelonImage,
-    Golden: goldenImage,
-    Areca: arecaImage,
-    Dieffenbachia: dieffenbachiaImage,
-    Zamioculcas: zamioculcasImage,
-    Rice: riceImage,
-    Sorghum: sorghumImage,
-    Barley: barleyImage,
-    Sugarcane: sugarcaneImage,
-    Bromeliads: bromeliadsImage,
-    Sansevieria: sansevieriaImage,
-    Zebra: zebraImage,
-    Aloe: aloeImage,
-    Pencil: pencilImage,
-    Coffee: coffeeImage,
-    Pineapple: pineappleImage,
-    Dragon: dragonImage,
-    Passion: passionImage,
-    Desert: desertImage,
-    Ponytail: ponytailImage,
-    Kalanchoe: kalanchoeImage,
-    Jade: jadeImage,
-    Cacti: cactiImage,
-    Sedum: sedumImage,
-    Portulaca: portulacaImage,
-    Pigeon: pigeonImage,
-    Winged: wingedImage,
-    Mung: mungImage,
-    Kidney: kidneyImage,
+    coleus: coleusImage,
+    elephant: elephantImage,
+    eggplant: eggplantImage,
+    cabbage: cabbageImage,
+    lettuce: lettuceImage,
+    kale: kaleImage,
+    mustard: mustardImage,
+    ixora: ixoraImage,
+    plumeria: plumeriaImage,
+    strelitzia: strelitziaImage,
+    cordyline: cordylineImage,
+    okra: okraImage,
+    sitaw: sitawImage,
+    malunggay: malunggayImage,
+    kangkong: kangkongImage,
+    amaranth: amaranthImage,
+    calathea: calatheaImage,
+    aglaonema: aglaonemaImage,
+    croton: crotonImage,
+    tomato: tomatoImage,
+    chilies: chiliesImage,
+    bell: bellImage,
+    strawberries: strawberriesImage,
+    lily: lilyImage,
+    philodendron: philodendronImage,
+    spider: spiderImage,
+    syngonium: syngoniumImage,
+    corn: cornImage,
+    squash: squashImage,
+    cucumber: cucumberImage,
+    watermelon: watermelonImage,
+    golden: goldenImage,
+    areca: arecaImage,
+    dieffenbachia: dieffenbachiaImage,
+    zamioculcas: zamioculcasImage,
+    rice: riceImage,
+    sorghum: sorghumImage,
+    barley: barleyImage,
+    sugarcane: sugarcaneImage,
+    bromeliads: bromeliadsImage,
+    sansevieria: sansevieriaImage,
+    zebra: zebraImage,
+    aloe: aloeImage,
+    pencil: pencilImage,
+    coffee: coffeeImage,
+    pineapple: pineappleImage,
+    dragon: dragonImage,
+    passion: passionImage,
+    desert: desertImage,
+    ponytail: ponytailImage,
+    kalanchoe: kalanchoeImage,
+    jade: jadeImage,
+    cacti: cactiImage,
+    sedum: sedumImage,
+    portulaca: portulacaImage,
+    pigeon: pigeonImage,
+    winged: wingedImage,
+    mung: mungImage,
+    kidney: kidneyImage,
   };
 
   const [showPlants, setSetShowPlants] = useState(false);
@@ -216,6 +216,8 @@ const Suggestions = ({ result, plants }) => {
                       <Guides
                         setSetShowGuides={setSetShowGuides}
                         result={result}
+                        res={plant.res}
+
                         // imagePaths={imagePaths}
                       />
                     )}
