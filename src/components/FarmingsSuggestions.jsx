@@ -5,12 +5,12 @@ const FarmingsSuggestions = ({ setSetShowFarmings, plant, imagePaths }) => {
       <div className="inside-farmings-container">
         <button onClick={() => setSetShowFarmings(false)}>close</button>
 
-        <div className="plants_container">
+        <div className="farmings_container">
           {plant.farmingPlants.map((FARMINGPLANTSDETAILS, index) => (
-            <div className="plant-each-container" key={index}>
+            <div className="farming-each-container general" key={index}>
               <h1>*{FARMINGPLANTSDETAILS.name}</h1>
               <img
-                src={imagePaths[FARMINGPLANTSDETAILS.image]}
+                src={imagePaths[FARMINGPLANTSDETAILS.image.toLowerString()]}
                 alt={FARMINGPLANTSDETAILS.name}
               />
               <p>{FARMINGPLANTSDETAILS.description}</p>

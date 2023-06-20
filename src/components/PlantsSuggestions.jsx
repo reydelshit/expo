@@ -4,12 +4,12 @@ const PlantsSuggestions = ({ plant, imagePaths, setSetShowPlants }) => {
     <div className="modal_container">
       <div className="inside-plants_container">
         <button onClick={() => setSetShowPlants(false)}>close</button>
-        <div className="plants_container">
+        <div className="plants_container general">
           {plant.ornomental.map((PLANTDETAILS, index) => (
             <div className="plant-each-container" key={index}>
               <h1>*{PLANTDETAILS.name}</h1>
               <img
-                src={imagePaths[PLANTDETAILS.image]}
+                src={imagePaths[PLANTDETAILS.image.toLowerString()]}
                 alt={PLANTDETAILS.name}
               />
               <p>{PLANTDETAILS.description}</p>

@@ -40,36 +40,36 @@ const App = () => {
         moist: 'wet moisture',
         level: [100, 400],
       },
-      ornamental: [
+      ornomental: [
         {
           name: 'Bougainvillea',
           description:
             'Bougainvillea is a flowering vine known for its colorful bracts that surround its small, inconspicuous flowers. It thrives in acidic soil and requires wet moisture conditions.',
-          image: 'insert Bougainvillea image link here',
+          image: 'bougainvillea',
         },
         {
           name: 'Anthuriums',
           description:
             'Anthuriums are tropical plants prized for their vibrant, heart-shaped flowers and glossy foliage. They prefer slightly acidic soil and thrive in wet and humid conditions.',
-          image: 'insert Anthuriums image link here',
+          image: 'anthuriums',
         },
         {
           name: 'Caladiums',
           description:
             'Caladiums are ornamental plants known for their large, colorful, and often variegated leaves. They prefer slightly acidic soil and require consistently moist conditions to thrive.',
-          image: 'insert Caladiums image link here',
+          image: 'caladiums',
         },
         {
           name: 'Ferns (such as Boston Fern)',
           description:
             'Ferns, including Boston Fern, are popular indoor and outdoor plants with delicate fronds and a lush appearance. They prefer slightly acidic soil and thrive in consistently moist conditions with high humidity.',
-          image: 'insert Boston Fern image link here',
+          image: 'Ferns',
         },
         {
           name: 'Gardenias',
           description:
             'Gardenias are fragrant flowering shrubs known for their beautiful white flowers and glossy green leaves. They thrive in acidic soil and require moist conditions to bloom.',
-          image: 'insert Gardenias image link here',
+          image: 'gardenias',
         },
       ],
       farmingPlants: [
@@ -77,25 +77,25 @@ const App = () => {
           name: 'Pineapples',
           description:
             'Pineapple plants are tropical fruit plants known for their delicious and juicy fruits. They require well-drained acidic soil and regular watering. Pineapples can be grown in warm climates.',
-          image: 'insert Pineapples image link here',
+          image: 'pineapples',
         },
         {
           name: 'Ginger',
           description:
             'Ginger is a spice plant grown for its flavorful and aromatic rhizomes. It prefers slightly acidic soil and requires regular watering. Ginger can be grown in both tropical and subtropical regions.',
-          image: 'insert Ginger image link here',
+          image: 'ginger',
         },
         {
           name: 'Taro (Gabi)',
           description:
             'Taro, also known as Gabi, is a starchy root vegetable commonly used in cooking. It thrives in acidic soil and requires consistently moist conditions. Taro is typically grown in tropical and subtropical regions.',
-          image: 'insert Taro image link here',
+          image: 'taro',
         },
         {
           name: 'Turmeric',
           description:
             'Turmeric is a spice plant known for its bright yellow rhizomes, which are used for cooking and medicinal purposes. It prefers slightly acidic soil and requires regular watering. Turmeric is commonly grown in tropical and subtropical regions.',
-          image: 'insert Turmeric image link here',
+          image: 'turmeric',
         },
       ],
     },
@@ -106,30 +106,30 @@ const App = () => {
         moist: 'wet moisture:',
         level: [100, 400],
       },
-      ornamental: [
+      ornomental: [
         {
           name: 'Hibiscus',
           description:
             'Hibiscus plants are known for their large, colorful flowers. They can tolerate slightly acidic soil and require wet moisture conditions.',
-          image: 'insert Hibiscus image link here',
+          image: 'hibiscus',
         },
         {
           name: 'Impatiens',
           description:
             'Impatiens are popular flowering plants that come in a variety of colors. They prefer neutral to slightly acidic soil and thrive in wet and humid conditions.',
-          image: 'insert Impatiens image link here',
+          image: 'impatiens',
         },
         {
           name: 'Coleus',
           description:
             'Coleus is an ornamental plant valued for its vibrant and patterned foliage. It thrives in neutral to slightly acidic soil and requires consistently moist conditions.',
-          image: 'insert Coleus image link here',
+          image: 'Coleus',
         },
         {
           name: 'Elephant Ear (Alocasia)',
           description:
             'Elephant Ear, also known as Alocasia, is a tropical plant with large, heart-shaped leaves. It prefers neutral to slightly acidic soil and thrives in consistently moist conditions.',
-          image: 'insert Elephant Ear image link here',
+          image: 'Elephant',
         },
       ],
       farmingPlants: [
@@ -137,31 +137,31 @@ const App = () => {
           name: 'Eggplant',
           description:
             'Eggplant plants produce versatile fruits used in various cuisines. They prefer slightly acidic soil and require regular watering.',
-          image: 'insert Eggplant image link here',
+          image: 'Eggplant',
         },
         {
           name: 'Cabbage',
           description:
             'Cabbage is a leafy vegetable known for its dense, layered leaves. It thrives in neutral to slightly acidic soil and requires consistent watering.',
-          image: 'insert Cabbage image link here',
+          image: 'Cabbage',
         },
         {
           name: 'Lettuce',
           description:
             'Lettuce is a leafy vegetable that can be grown in various varieties. It prefers neutral to slightly acidic soil and requires consistent watering.',
-          image: 'insert Lettuce image link here',
+          image: 'Lettuce',
         },
         {
           name: 'Kale',
           description:
             'Kale is a nutritious leafy green vegetable with a rich flavor. It thrives in neutral to slightly acidic soil and requires regular watering.',
-          image: 'insert Kale image link here',
+          image: 'Kale',
         },
         {
           name: 'Mustard Greens (Mustasa)',
           description:
             'Mustard Greens, also known as Mustasa, are leafy vegetables with a slightly spicy taste. They prefer neutral to slightly acidic soil and require regular watering.',
-          image: 'insert Mustard Greens image link here',
+          image: 'Mustard',
         },
       ],
     },
@@ -177,31 +177,31 @@ const App = () => {
           name: 'Ixora',
           description:
             'Ixora is a flowering shrub that produces clusters of colorful, star-shaped flowers. It thrives in alkaline soil and requires wet moisture conditions.',
-          image: 'insert Ixora image link here',
+          image: 'Ixora',
         },
         {
           name: 'Bougainvillea (some varieties)',
           description:
             'Bougainvillea is a flowering vine known for its colorful bracts that surround its small, inconspicuous flowers. Some varieties of Bougainvillea can tolerate alkaline soil and require wet moisture conditions.',
-          image: 'insert Bougainvillea image link here',
+          image: 'Bougainvillea',
         },
         {
           name: 'Plumeria (Frangipani)',
           description:
             'Plumeria, also known as Frangipani, is a tropical tree with fragrant and beautiful flowers. It can tolerate alkaline soil and requires wet moisture conditions.',
-          image: 'insert Plumeria image link here',
+          image: 'Plumeria',
         },
         {
           name: 'Bird of Paradise (Strelitzia)',
           description:
             'Bird of Paradise, also known as Strelitzia, is a striking plant with vibrant and unique bird-like flowers. It can tolerate alkaline soil and requires wet moisture conditions.',
-          image: 'insert Bird of Paradise image link here',
+          image: 'Strelitzia',
         },
         {
           name: 'Ti Plant (Cordyline)',
           description:
             'Ti Plant, also known as Cordyline, is a tropical plant with colorful foliage. It can tolerate alkaline soil and requires wet moisture conditions.',
-          image: 'insert Ti Plant image link here',
+          image: 'Cordyline',
         },
       ],
       farmingPlants: [
@@ -209,31 +209,31 @@ const App = () => {
           name: 'Okra',
           description:
             'Okra is a warm-season vegetable with edible green pods. It prefers slightly alkaline soil and requires regular watering.',
-          image: 'insert Okra image link here',
+          image: 'Okra',
         },
         {
           name: 'String Beans (Sitaw)',
           description:
             'String Beans, also known as Sitaw, are legume plants that produce long edible pods. They prefer slightly alkaline soil and require regular watering.',
-          image: 'insert String Beans image link here',
+          image: 'Sitaw',
         },
         {
           name: 'Malunggay (Moringa)',
           description:
             'Malunggay, also known as Moringa, is a fast-growing tree with nutritious leaves and seed pods. It prefers slightly alkaline soil and requires regular watering.',
-          image: 'insert Malunggay image link here',
+          image: 'Malunggay',
         },
         {
           name: 'Kangkong (Water Spinach)',
           description:
             'Kangkong, also known as Water Spinach, is a leafy green vegetable that grows in water or moist soil. It can tolerate alkaline soil and requires wet moisture conditions.',
-          image: 'insert Kangkong image link here',
+          image: 'Kangkong',
         },
         {
           name: 'Amaranth Leaves (Kulitis)',
           description:
             'Amaranth Leaves, also known as Kulitis, are leafy greens with a mild and earthy flavor. They can tolerate alkaline soil and require regular watering.',
-          image: 'insert Amaranth Leaves image link here',
+          image: 'Amaranth',
         },
       ],
     },
@@ -249,25 +249,25 @@ const App = () => {
           name: 'Ferns (such as Asplenium nidus)',
           description:
             'Ferns, including Asplenium nidus (Birds Nest Fern), are valued for their attractive foliage and adaptability. They thrive in acidic soil and require damp moisture conditions.',
-          image: 'insert Asplenium nidus image link here',
+          image: 'Ferns',
         },
         {
           name: 'Calathea',
           description:
             'Calathea is a tropical plant with vibrant patterned leaves. It prefers acidic soil and requires damp moisture conditions.',
-          image: 'insert Calathea image link here',
+          image: 'Calathea',
         },
         {
           name: 'Aglaonema',
           description:
             'Aglaonema is a popular houseplant with variegated foliage. It thrives in acidic soil and requires damp moisture conditions.',
-          image: 'insert Aglaonema image link here',
+          image: 'Aglaonema',
         },
         {
           name: 'Croton (Codiaeum variegatum)',
           description:
             'Croton, also known as Codiaeum variegatum, is a colorful tropical plant with glossy leaves. It prefers acidic soil and requires damp moisture conditions.',
-          image: 'insert Croton image link here',
+          image: 'Croton',
         },
       ],
       farmingPlants: [
@@ -275,25 +275,25 @@ const App = () => {
           name: 'Tomato',
           description:
             'Tomato plants are popular for their delicious fruits and can be grown in various climates. They prefer slightly acidic soil and require regular watering.',
-          image: 'insert Tomato image link here',
+          image: 'Tomato',
         },
         {
           name: 'Chilies',
           description:
             'Chilies, also known as hot peppers, are spicy vegetables used in cooking. They prefer slightly acidic soil and require consistent watering.',
-          image: 'insert Chilies image link here',
+          image: 'Chilies',
         },
         {
           name: 'Bell Peppers',
           description:
             'Bell peppers come in various colors and are a popular vegetable choice. They prefer slightly acidic soil and require adequate sunlight and moisture.',
-          image: 'insert Bell Peppers image link here',
+          image: 'Bell',
         },
         {
           name: 'Strawberries',
           description:
             'Strawberry plants produce sweet and juicy fruits. They thrive in slightly acidic soil and require adequate sunlight and moisture.',
-          image: 'insert Strawberries image link here',
+          image: 'Strawberries',
         },
       ],
     },
@@ -309,31 +309,31 @@ const App = () => {
           name: 'Peace Lily (Spathiphyllum)',
           description:
             'Peace Lily is an evergreen plant with glossy, dark green leaves and white flowers. It can tolerate neutral to slightly acidic soil and requires damp moisture conditions.',
-          image: 'insert Peace Lily image link here',
+          image: 'Lily',
         },
         {
           name: 'Philodendron',
           description:
             'Philodendron is a popular houseplant with a variety of leaf shapes and sizes. It thrives in neutral to slightly acidic soil and requires damp moisture conditions.',
-          image: 'insert Philodendron image link here',
+          image: 'Philodendron',
         },
         {
           name: 'Spider Plant (Chlorophytum comosum)',
           description:
             'Spider Plant, also known as Chlorophytum comosum, is an adaptable houseplant with long, arching leaves. It prefers neutral to slightly acidic soil and requires damp moisture conditions.',
-          image: 'insert Spider Plant image link here',
+          image: 'Spider',
         },
         {
           name: 'Pothos (Epipremnum aureum)',
           description:
             'Pothos, also known as Epipremnum aureum, is a trailing vine with heart-shaped leaves. It can tolerate neutral to slightly acidic soil and requires damp moisture conditions.',
-          image: 'insert Pothos image link here',
+          image: 'Pothos',
         },
         {
           name: 'Syngonium',
           description:
             'Syngonium is a versatile houseplant with arrow-shaped leaves. It thrives in neutral to slightly acidic soil and requires damp moisture conditions.',
-          image: 'insert Syngonium image link here',
+          image: 'Syngonium',
         },
       ],
       farmingPlants: [
@@ -341,28 +341,29 @@ const App = () => {
           name: 'Corn',
           description:
             'Corn is a staple crop with sweet and tender kernels. It prefers neutral to slightly acidic soil and requires consistent watering.',
-          image: 'insert Corn image link here',
+          image: 'Corn',
         },
         {
           name: 'Squash',
           description:
             'Squash plants produce various types of edible fruits and are known for their vigorous growth. They prefer neutral to slightly acidic soil and require regular watering.',
-          image: 'insert Squash image link here',
+          image: 'Squash',
         },
         {
           name: 'Cucumber',
           description:
             'Cucumber plants produce crisp and refreshing fruits. They prefer neutral to slightly acidic soil and require regular watering.',
-          image: 'insert Cucumber image link here',
+          image: 'Cucumber',
         },
         {
           name: 'Watermelon',
           description:
             'Watermelon is a juicy fruit known for its sweet and refreshing taste. It prefers neutral to slightly acidic soil and requires consistent moisture.',
-          image: 'insert Watermelon image link here',
+          image: 'Watermelon',
         },
       ],
     },
+
     6: {
       res: 6,
       conditions: {
@@ -375,60 +376,62 @@ const App = () => {
           name: 'Golden Cane Palm (Dypsis lutescens)',
           description:
             'Golden Cane Palm, also known as Dypsis lutescens or Areca Palm, is a tropical plant with graceful, feathery fronds. It thrives in slightly acidic soil and moist moisture conditions.',
-          image: 'insert Golden Cane Palm image link here',
+          image: 'Golden',
         },
         {
           name: 'Areca Palm (Dypsis lutescens)',
           description:
             'Areca Palm, also known as Dypsis lutescens or Golden Cane Palm, is a popular indoor palm plant. It prefers slightly acidic soil and moist moisture conditions.',
-          image: 'insert Areca Palm image link here',
+          image: 'Areca',
         },
         {
           name: 'Dieffenbachia',
           description:
             'Dieffenbachia is an attractive houseplant known for its large, patterned leaves. It thrives in slightly acidic soil and requires moist moisture conditions.',
-          image: 'insert Dieffenbachia image link here',
+          image: 'Dieffenbachia',
         },
         {
           name: 'ZZ Plant (Zamioculcas zamiifolia)',
           description:
             'ZZ Plant, also known as Zamioculcas zamiifolia, is a low-maintenance houseplant with glossy, dark green leaves. It can tolerate slightly acidic soil and prefers moist moisture conditions.',
-          image: 'insert ZZ Plant image link here',
+          image: 'Zamioculcas',
         },
       ],
+
       farmingPlants: [
         {
           name: 'Rice',
           description:
             'Rice is a staple food crop cultivated for its edible grains. It prefers slightly acidic soil and requires consistent moisture.',
-          image: 'insert Rice image link here',
+          image: 'Rice',
         },
         {
           name: 'Corn',
           description:
             'Corn, also known as maize, is a versatile grain crop. It can tolerate a wide range of soil pH levels and requires regular watering.',
-          image: 'insert Corn image link here',
+          image: 'Corn',
         },
         {
           name: 'Sorghum',
           description:
             'Sorghum is a drought-tolerant cereal grain used for food and animal feed. It can tolerate neutral acidic soil and requires moderate watering.',
-          image: 'insert Sorghum image link here',
+          image: 'Sorghum',
         },
         {
           name: 'Barley',
           description:
             'Barley is a cereal grain commonly used in brewing and cooking. It can tolerate slightly acidic soil and requires moderate watering.',
-          image: 'insert Barley image link here',
+          image: 'Barley',
         },
         {
           name: 'Sugarcane',
           description:
             'Sugarcane is a tall perennial grass known for its sweet stalks used to produce sugar. It thrives in slightly acidic soil and requires ample water supply.',
-          image: 'insert Sugarcane image link here',
+          image: 'Sugarcane',
         },
       ],
     },
+
     7: {
       res: 7,
       conditions: {
@@ -441,31 +444,31 @@ const App = () => {
           name: 'Bromeliads',
           description:
             'Bromeliads are tropical plants known for their colorful and exotic flowers. They can tolerate acidic soil and thrive in dry moisture conditions.',
-          image: 'insert Bromeliads image link here',
+          image: 'Bromeliads',
         },
         {
           name: 'Sansevieria',
           description:
             "Sansevieria, also known as Snake Plant or Mother-in-Law's Tongue, is a hardy and low-maintenance houseplant. It can tolerate acidic soil and prefers dry moisture conditions.",
-          image: 'insert Sansevieria image link here',
+          image: 'Sansevieria',
         },
         {
           name: 'Zebra Plant (Aphelandra squarrosa)',
           description:
             'Zebra Plant, also known as Aphelandra squarrosa, is a tropical houseplant with striking foliage. It can tolerate acidic soil and thrives in dry moisture conditions.',
-          image: 'insert Zebra Plant image link here',
+          image: 'Zebra',
         },
         {
           name: 'Aloe Vera',
           description:
             'Aloe Vera is a succulent plant known for its medicinal properties. It can tolerate acidic soil and requires dry moisture conditions.',
-          image: 'insert Aloe Vera image link here',
+          image: 'Aloe',
         },
         {
           name: 'Pencil Cactus (Euphorbia tirucalli)',
           description:
             'Pencil Cactus, also known as Euphorbia tirucalli, is a unique succulent with slender, pencil-like branches. It can tolerate acidic soil and is well-suited to dry moisture conditions.',
-          image: 'insert Pencil Cactus image link here',
+          image: 'Pencil',
         },
       ],
       farmingPlants: [
@@ -473,25 +476,25 @@ const App = () => {
           name: 'Coffee',
           description:
             'Coffee plants are cultivated for their aromatic beans. They prefer acidic soil and can tolerate a wide range of pH levels. They require regular watering.',
-          image: 'insert Coffee image link here',
+          image: 'Coffee',
         },
         {
           name: 'Pineapple',
           description:
             'Pineapple plants are tropical fruit plants known for their delicious and juicy fruits. They require well-drained soil and regular watering. Pineapples can be grown in warm climates.',
-          image: 'insert Pineapple image link here',
+          image: 'Pineapple',
         },
         {
           name: 'Dragon Fruit',
           description:
             'Dragon Fruit is a unique and exotic fruit plant. It prefers acidic soil but can tolerate alkaline conditions. It requires well-drained soil and regular watering.',
-          image: 'insert Dragon Fruit image link here',
+          image: 'Dragon',
         },
         {
           name: 'Passion Fruit',
           description:
             'Passion Fruit plants produce delicious and tangy fruits. They can tolerate acidic soil and require consistent moisture. Passion Fruit vines thrive in warm climates.',
-          image: 'insert Passion Fruit image link here',
+          image: 'Passion',
         },
       ],
     },
@@ -507,25 +510,25 @@ const App = () => {
           name: 'Desert Rose (Adenium obesum)',
           description:
             'Desert Rose is a beautiful flowering succulent plant native to arid regions. It thrives in neutral acidic soil and dry moisture conditions.',
-          image: 'insert Desert Rose image link here',
+          image: 'Desert',
         },
         {
           name: 'Ponytail Palm (Beaucarnea recurvata)',
           description:
             'Ponytail Palm is a unique-looking plant with a swollen trunk and long, curly leaves. It prefers neutral acidic soil and dry moisture conditions.',
-          image: 'insert Ponytail Palm image link here',
+          image: 'Ponytail',
         },
         {
           name: 'Kalanchoe',
           description:
             'Kalanchoe is a popular ornamental plant with vibrant flowers and thick, fleshy leaves. It thrives in neutral acidic soil and dry moisture conditions.',
-          image: 'insert Kalanchoe image link here',
+          image: 'Kalanchoe',
         },
         {
           name: 'Jade Plant (Crassula ovata)',
           description:
             'Jade Plant, also known as Money Plant, is a succulent with thick, glossy leaves. It prefers neutral acidic soil and dry moisture conditions.',
-          image: 'insert Jade Plant image link here',
+          image: 'Jade',
         },
       ],
       farmingPlants: [
@@ -533,25 +536,25 @@ const App = () => {
           name: 'Peanut',
           description:
             'Peanut is a legume crop grown for its edible seeds. It prefers neutral acidic soil and dry moisture conditions.',
-          image: 'insert Peanut image link here',
+          image: 'Peanut',
         },
         {
           name: 'Soybean',
           description:
             'Soybean is a versatile legume crop used for various purposes, including food and animal feed. It thrives in neutral acidic soil and dry moisture conditions.',
-          image: 'insert Soybean image link here',
+          image: 'Soybean',
         },
         {
           name: 'Sesame',
           description:
             'Sesame is an oilseed crop grown for its seeds, which are used in cooking and as a flavoring. It prefers neutral acidic soil and dry moisture conditions.',
-          image: 'insert Sesame image link here',
+          image: 'Sesame',
         },
         {
           name: 'Adzuki Beans',
           description:
             'Adzuki Beans, also known as Azuki Beans, are small red beans commonly used in Asian cuisine. They thrive in neutral acidic soil and dry moisture conditions.',
-          image: 'insert Adzuki Beans image link here',
+          image: 'Adzuki',
         },
       ],
     },
@@ -567,51 +570,52 @@ const App = () => {
           name: 'Cacti (various species)',
           description:
             'Cacti are desert plants known for their unique shapes and ability to thrive in dry conditions. They prefer alkaline soil and dry moisture conditions.',
-          image: 'insert Cacti image link here',
+          image: 'Cacti',
         },
         {
           name: 'Sedum',
           description:
             'Sedum, also known as stonecrop, is a group of succulent plants that are drought-tolerant and prefer alkaline soil with dry moisture conditions.',
-          image: 'insert Sedum image link here',
+          image: 'Sedum',
         },
         {
           name: 'Portulaca (Moss Rose)',
           description:
             'Portulaca, commonly known as Moss Rose, is a flowering plant that thrives in hot and dry environments. It prefers alkaline soil and dry moisture conditions.',
-          image: 'insert Portulaca image link here',
+          image: 'Portulaca',
         },
         {
           name: 'Ponytail Palm (Beaucarnea recurvata)',
           description:
             'Ponytail Palm is a unique palm tree with a distinctive swollen trunk and long, thin leaves. It can tolerate alkaline soil and thrives in dry moisture conditions.',
-          image: 'insert Ponytail Palm image link here',
+          image: 'Ponytail',
         },
       ],
+
       farmingPlants: [
         {
           name: 'Pigeon Pea (Kadyos)',
           description:
             'Pigeon Pea, also known as Kadyos, is a legume crop cultivated for its nutritious seeds. It prefers alkaline soil and dry moisture conditions.',
-          image: 'insert Pigeon Pea image link here',
+          image: 'Pigeon',
         },
         {
           name: 'Winged Beans (Sigarilyas)',
           description:
             'Winged Beans, also known as Sigarilyas, are tropical legume plants with edible pods and leaves. They prefer alkaline soil and dry moisture conditions.',
-          image: 'insert Winged Beans image link here',
+          image: 'Winged',
         },
         {
           name: 'Mung Beans (Munggo)',
           description:
             'Mung Beans, also known as Munggo, are commonly used in Asian cuisine and are easy to grow. They prefer alkaline soil and dry moisture conditions.',
-          image: 'insert Mung Beans image link here',
+          image: 'Mung',
         },
         {
           name: 'Kidney Beans (Bataw)',
           description:
             'Kidney Beans, also known as Bataw, are a type of legume known for their kidney-shaped seeds. They prefer alkaline soil and dry moisture conditions.',
-          image: 'insert Kidney Beans image link here',
+          image: 'Kidney',
         },
       ],
     },
@@ -626,25 +630,25 @@ const App = () => {
     console.log('MoistData:', MoistData);
 
     if (
-      parseInt(inputAcidity) < 6 &&
-      parseInt(MoistData) >= 100 &&
+      parseInt(inputAcidity) <= 6 &&
+      parseInt(MoistData) >= 0 &&
       parseInt(MoistData) <= 400
     ) {
       setResult(1);
     } else if (
       parseInt(inputAcidity) === 7 &&
-      parseInt(MoistData) >= 100 &&
+      parseInt(MoistData) >= 0 &&
       parseInt(MoistData) <= 400
     ) {
       setResult(2);
     } else if (
       parseInt(inputAcidity) > 7 &&
-      parseInt(MoistData) >= 100 &&
+      parseInt(MoistData) >= 0 &&
       parseInt(MoistData) <= 400
     ) {
       setResult(3);
     } else if (
-      parseInt(inputAcidity) < 6 &&
+      parseInt(inputAcidity) <= 6 &&
       parseInt(MoistData) >= 500 &&
       parseInt(MoistData) <= 700
     ) {
@@ -662,7 +666,7 @@ const App = () => {
     ) {
       setResult(6);
     } else if (
-      parseInt(inputAcidity) < 6 &&
+      parseInt(inputAcidity) <= 6 &&
       parseInt(MoistData) >= 800 &&
       parseInt(MoistData) <= 1000
     ) {
