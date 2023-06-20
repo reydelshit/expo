@@ -649,37 +649,37 @@ const App = () => {
       setResult(3);
     } else if (
       parseInt(inputAcidity) <= 6 &&
-      parseInt(MoistData) >= 500 &&
+      parseInt(MoistData) >= 400 &&
       parseInt(MoistData) <= 700
     ) {
       setResult(4);
     } else if (
       parseInt(inputAcidity) === 7 &&
-      parseInt(MoistData) >= 500 &&
+      parseInt(MoistData) >= 400 &&
       parseInt(MoistData) <= 700
     ) {
       setResult(5);
     } else if (
       parseInt(inputAcidity) > 7 &&
-      parseInt(MoistData) >= 500 &&
+      parseInt(MoistData) >= 400 &&
       parseInt(MoistData) <= 700
     ) {
       setResult(6);
     } else if (
       parseInt(inputAcidity) <= 6 &&
-      parseInt(MoistData) >= 800 &&
+      parseInt(MoistData) >= 700 &&
       parseInt(MoistData) <= 1000
     ) {
       setResult(7);
     } else if (
       parseInt(inputAcidity) === 7 &&
-      parseInt(MoistData) >= 800 &&
+      parseInt(MoistData) >= 700 &&
       parseInt(MoistData) <= 1000
     ) {
       setResult(8);
     } else if (
       parseInt(inputAcidity) > 7 &&
-      parseInt(MoistData) >= 800 &&
+      parseInt(MoistData) >= 700 &&
       parseInt(MoistData) <= 1000
     ) {
       setResult(9);

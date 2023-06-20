@@ -1,5 +1,6 @@
 /* eslint-disable react/prop-types */
-const Guides = ({ setSetShowGuides, result, res }) => {
+const Guides = ({ setSetShowGuides, result }) => {
+  console.log(result);
   const guides = {
     1: {
       Classifications: {
@@ -307,28 +308,26 @@ const Guides = ({ setSetShowGuides, result, res }) => {
   };
 
   const renderGuides = () => {
-    return Object.entries(guides).map(([key, guide]) => {
-      if (res === result) {
-        return (
-          <div className="guide" key={key}>
-            <h1>Guides</h1>
-            {Object.entries(guide).map(([category, details]) => (
-              <div className="guides-each-container" key={category}>
-                <h3>{category}</h3>
-                {Object.entries(details).map(([title, content]) => (
-                  <div key={title}>
-                    <h4>{title}</h4>
-                    <p>{content}</p>
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
-        );
-      } else {
-        return null;
-      }
-    });
+    if (result && guides[result]) {
+      return (
+        <div className="guide" key={result}>
+          <h1>Guides</h1>
+          {Object.entries(guides[result]).map(([category, details]) => (
+            <div className="guides-each-container" key={category}>
+              <h3>{category}</h3>
+              {Object.entries(details).map(([title, content]) => (
+                <div key={title}>
+                  <h4>{title}</h4>
+                  <p>{content}</p>
+                </div>
+              ))}
+            </div>
+          ))}
+        </div>
+      );
+    } else {
+      return null;
+    }
   };
 
   return (
