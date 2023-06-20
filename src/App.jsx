@@ -183,7 +183,7 @@ const App = () => {
           name: 'Bougainvillea (some varieties)',
           description:
             'Bougainvillea is a flowering vine known for its colorful bracts that surround its small, inconspicuous flowers. Some varieties of Bougainvillea can tolerate alkaline soil and require wet moisture conditions.',
-          image: 'Bougainvillea',
+          image: 'bou',
         },
         {
           name: 'Plumeria (Frangipani)',
@@ -249,7 +249,7 @@ const App = () => {
           name: 'Ferns (such as Asplenium nidus)',
           description:
             'Ferns, including Asplenium nidus (Birds Nest Fern), are valued for their attractive foliage and adaptability. They thrive in acidic soil and require damp moisture conditions.',
-          image: 'Ferns',
+          image: 'asplenium',
         },
         {
           name: 'Calathea',
